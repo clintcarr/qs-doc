@@ -1,4 +1,4 @@
-# About
+![alt text](http://url/to/img.png)# About
 QS:Doc is a standalone application that ingests information from the Qlik Sense Repository Service and creates a both a formatted Microsoft word document and a Microsoft Office Excel spreadsheet containing the same information but not formatted (for easy ingestion into an application or database)
 
 The output can then be used as a build document, disaster recovery document or purely as information on configuration.
@@ -31,3 +31,4 @@ https://support.microsoft.com/en-au/help/2999226/update-for-universal-c-runtime-
 ## Usage
 Launch .\Create_QSDoc.exe --help to view the usage.
 
+![alt text](https://github.com/clintcarr/qs-doc/blob/master/help.png)
