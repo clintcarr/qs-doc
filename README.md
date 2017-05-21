@@ -14,7 +14,7 @@ The output can then be used as a build document, disaster recovery document or p
 | User Directory| License Rules     | Custom Properties | System Rules   | 
 |---------------|-------------------|----------------|-------------------| 
 | Tags          | Repository Config | Windows Management Information |   | 
-|---------------|-------------------|----------------|-------------------| 
+
 
 # Versions
 
