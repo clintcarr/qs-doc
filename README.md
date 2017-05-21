@@ -8,18 +8,13 @@ The output can then be used as a build document, disaster recovery document or p
 | Site Details | Assets | Hardware | Properties |
 |--------------|--------|----------|------------|
 | Service Cluster | Applications | Windows Management information | Custom Properties
-| Engine information | Extensions | Tags
-| Proxy information | Data Connections |User Directories
-| Virtual Proxy information | System Rules
+| Engine information | Extensions | | Tags
+| Proxy information | Data Connections | |User Directories
+| Virtual Proxy information | System Rules || Site License
 | Scheduler information | License Rules
 | Repository information
 
-| Site Details  | Scheduler Details | Server Details | Extension Objects |
-|---------------|-------------------|----------------|-------------------| 
-| Applications  | Site License      | Service Cluster| Streams           | 
-| Engines       | Proxy             | Virtual Proxy  | Data Connections  | 
-| User Directory| License Rules     | Custom Properties | System Rules   | 
-| Tags          | Repository Config | Windows Management Information |   | 
+
 
 
 # Versions
@@ -30,6 +25,7 @@ Ensure the correct version is used for the version of Qlik Sense Enterprise that
 |--------------------|----------------|
 | 3.2.x | QS:Doc 3.2|
 | 3.1.6 | QS:Doc 3.2|
+| 3.1.0 | QS:Doc 3.0|
 | 3.0.x | QS:Doc 3.0|
 
 ## Installation
@@ -47,4 +43,5 @@ Launch .\Create_QSDoc.exe --help to view the usage.
 2. To connect using certificate authentication ensure the certificates are exported as PEM format: .\Create_QSDoc.exe --server {servername} --certs {path to PEM files}
 3. To capture WMI information ensure you use Windows Authentication (captures RAM/CPU information)
 
+### Windows Authentication
 ![alt text](https://github.com/clintcarr/qs-doc/blob/master/capture.gif)
