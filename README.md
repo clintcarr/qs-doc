@@ -23,7 +23,7 @@ Ensure the correct version is used for the version of Qlik Sense Enterprise that
 | 3.0.x | QS:Doc 3.0|
 
 ## Installation
-1. Ensure the c runtime is installed (this is usually installed via Windows update)
+1. Ensure the c runtime is installed (this is usually installed via Windows update - so there should be no need to install this separately for QS:Doc)
 https://support.microsoft.com/en-au/help/2999226/update-for-universal-c-runtime-in-windows
 2. Install QS:Doc (all versions can exist on the same machine, be sure to install each version to a unique folder
 3. Ensure Qlik Sense Port 4242 is open if using certificate authentication, else 443/4244 (80/4248) if using Windows Authentication
