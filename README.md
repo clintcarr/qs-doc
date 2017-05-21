@@ -5,6 +5,15 @@ The output can then be used as a build document, disaster recovery document or p
 
 # What it collects
 
+| Site Details | Assets | Hardware | Properties |
+|--------------|--------|----------|------------|
+| Service Cluster | Applications | Windows Management information | Custom Properties
+| Engine information | Extensions | Tags
+| Proxy information | Data Connections |User Directories
+| Virtual Proxy information | System Rules
+| Scheduler information | License Rules
+| Repository information
+
 | Site Details  | Scheduler Details | Server Details | Extension Objects |
 |---------------|-------------------|----------------|-------------------| 
 | Applications  | Site License      | Service Cluster| Streams           | 
@@ -20,6 +29,7 @@ Ensure the correct version is used for the version of Qlik Sense Enterprise that
 | Qlik Sense Version | QS:Doc Version |
 |--------------------|----------------|
 | 3.2.x | QS:Doc 3.2|
+| 3.1.6 | QS:Doc 3.2|
 | 3.0.x | QS:Doc 3.0|
 
 ## Installation
