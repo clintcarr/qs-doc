@@ -32,3 +32,9 @@ https://support.microsoft.com/en-au/help/2999226/update-for-universal-c-runtime-
 Launch .\Create_QSDoc.exe --help to view the usage.
 
 ![alt text](https://github.com/clintcarr/qs-doc/blob/master/help.png)
+
+1. To connect using Windows Authentication use the user and password switches: .\Create_QSDoc.exe --server {servername} --user {domain\username} --password {password}
+2. To connect using certificate authentication ensure the certificates are exported as PEM format: .\Create_QSDoc.exe --server {servername} --certs {path to PEM files}
+3. To capture WMI information ensure you use Windows Authentication (captures RAM/CPU information)
+
+![alt text](https://github.com/clintcarr/qs-doc/blob/master/capture.gif)
