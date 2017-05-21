@@ -16,3 +16,18 @@ The output can then be used as a build document, disaster recovery document or p
 # Versions
 
 Ensure the correct version is used for the version of Qlik Sense Enterprise that is being documented.
+
+| Qlik Sense Version | QS:Doc Version |
+|--------------------|----------------|
+| 3.2.x | QS:Doc 3.2|
+| 3.0.x | QS:Doc 3.0|
+
+## Installation
+1. Ensure the c runtime is installed (this is usually installed via Windows update)
+https://support.microsoft.com/en-au/help/2999226/update-for-universal-c-runtime-in-windows
+2. Install QS:Doc (all versions can exist on the same machine, be sure to install each version to a unique folder
+3. Ensure Qlik Sense Port 4242 is open if using certificate authentication, else 443/4244 (80/4248) if using Windows Authentication
+
+## Usage
+Launch .\Create_QSDoc.exe --help to view the usage.
+
